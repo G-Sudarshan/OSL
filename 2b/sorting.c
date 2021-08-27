@@ -40,14 +40,13 @@ int main(int argc, char *argv[])
 
 
     int i;
-    printf("\n\nAFter sorting array elements are : ");
+    printf("\n\nAfter sorting array elements are : ");
     for(i=0;i<no_of_elements;i++)
     {
         printf("%d\t",integer_array[i]);
     }
 
-    // printf("\n\nEnter element to search: ");
-    // scanf("%d",&search);
+
     integer_array[i] = search;
 
     for (i=0; i < no_of_elements+1; i++)

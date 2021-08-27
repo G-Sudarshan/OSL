@@ -16,7 +16,7 @@ int main(int argc, char *argv[],char *en[])
         int n=atoi(argv[j]);
         arr[j]=n;
     }
-    // search=atoi(argv[j]);
+
 
     printf("\n\nEnter element to search: ");
     scanf("%d",&search);
@@ -26,8 +26,7 @@ int main(int argc, char *argv[],char *en[])
     {
 	printf("%d\t",arr[i]);
     }
-    //printf("Enter element to search in array : ");
-    //scanf("%d",&search);
+
 
     int *item = (int*) bsearch (&search, arr, argc-1, sizeof (int), compare_search);
     if(item != NULL)
