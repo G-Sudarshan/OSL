@@ -24,7 +24,7 @@ int main(int argc, char *argv[],char *en[])
     printf("Array elements are : \n");
     for(int i=0;i<argc-1;i++)
     {
-	printf("%d\t",arr[i]);
+	    printf("%d\t",arr[i]);
     }
 
 

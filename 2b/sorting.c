@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
         printf("%d\t",integer_array[i]);
     }
 
-   qsort (integer_array, no_of_elements, sizeof(int), compare);
+    qsort (integer_array, no_of_elements, sizeof(int), compare);
 
 
     int i;
