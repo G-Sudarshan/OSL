@@ -14,6 +14,7 @@ int numreader = 0;
 
 void *writer(void *wno)
 {   
+    printf("\nWriter %d wants to write \n",(*((int *)wno)));
     sem_wait(&wrt);
     cnt = cnt*2;
     printf("\nWriter %d modified cnt to %d\n",(*((int *)wno)),cnt);
@@ -25,6 +26,7 @@ void *reader(void *rno)
     // Reader acquire the lock before modifying numreader
     pthread_mutex_lock(&mutex);
     numreader++;
+    printf("\nReader %d: wants to read: \n",*((int *)rno));
     if(numreader == 1) {
         sem_wait(&wrt); // If this id the first reader, then it will block the writer
     }
