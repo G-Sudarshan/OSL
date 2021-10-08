@@ -1,3 +1,11 @@
+/*
+
+Author: G Sudarshan
+Date: 8 Oct 2021
+Subject: OSL
+
+*/
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
