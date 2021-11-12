@@ -6,8 +6,7 @@ Assignment 8: Implement the C program for Disk Scheduling Algorithms: SSTF, SCAN
             considering the initial head position moving away from the spindle
 */
 
-//#include<bits/stdc++.h>
-#include<iostream>
+#include<bits/stdc++.h>
 #include<cstdio>
 #include<cmath>
 #include<GL/gl.h>
