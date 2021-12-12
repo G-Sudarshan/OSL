@@ -6,12 +6,12 @@ Assignment 8: Implement the C program for Disk Scheduling Algorithms: SSTF, SCAN
             considering the initial head position moving away from the spindle
 */
 
-//#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 #include<iostream>
 #include<cstdio>
 #include<cmath>
-#include<GL/gl.h>
-#include<GL/freeglut.h>
+// #include<GL/gl.h>
+// #include<GL/freeglut.h>
 using namespace std;
 
 void display_vertice(int x, int y, int num){
