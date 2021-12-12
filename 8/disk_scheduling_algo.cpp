@@ -7,7 +7,10 @@ Assignment 8: Implement the C program for Disk Scheduling Algorithms: SSTF, SCAN
 */
 
 #include<bits/stdc++.h>
+<<<<<<< HEAD
 #include<iostream>
+=======
+>>>>>>> 65e4b91f86df84db7c25e2bec70d02adf1784768
 #include<cstdio>
 #include<cmath>
 // #include<GL/gl.h>
